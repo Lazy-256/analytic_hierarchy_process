@@ -1,0 +1,9 @@
+[package]
+name = "analytic_hierarchy_process"
+version = "0.1.0"
+authors = ["Lazy-256 <kurlov.yuri@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+text_io = "*"
+azul = { git = "https://github.com/maps4print/azul", rev = "82d7f89" }

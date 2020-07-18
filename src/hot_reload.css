@@ -1,0 +1,175 @@
+/* #filename_wrapper { display: flex; align-items: center; flex-direction: row; height: 28px; padding: 4px; margin: 2px; border: 1px solid #8d8d8d; border-radius: 2px;  }
+*/
+
+#filename_wrapper {
+  padding: 5px;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: 1px solid blue; 
+  height: 30px;
+}
+
+#input_field { 
+  padding-left: 1px; 
+  border-radius: 2px;
+  width: 150px;
+  height: 20px;
+  border: 2px solid transparent;
+  background-color: #ccc;
+}
+
+#input_field:focus {
+  border: 2px solid  #8d8d8d;
+}
+
+#input_label { padding-left: 1px; width: 100px; height: 20px; /* font-weight: 200; */ }
+
+#wrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  border: 5px solid yellow; 
+}
+
+#control_pannel_wrapper {
+  margin: 5px;
+  flex-direction: column;
+  width: 300px;
+  justify-content: flex-end;    
+  border: 5px solid #8d8d8d; 
+}
+
+.hierarchy_main_pannel_wrapper {
+  margin: 5px;
+  flex-direction: column;
+  justify-content: flex-start;  
+   border: 2px solid black;
+}
+
+.hierarchy {
+	flex-direction: column;
+	/* align-items: center; */
+}
+
+.hierarchy  .level {
+	background-color: green;
+	flex-direction: row; 
+	min-width: 350px;
+}
+
+.hierarchy .level  .item {
+	border-radius: 5px;
+	background-color: rgb(46, 32, 43);
+	padding: 5px;
+	margin: 5px;
+	font-size: 15px;
+	min-width: 150px;
+} 
+
+.hierarchy .level .hierarchy-level-form {
+	flex-direction: column;
+	background-color: red;
+	padding: 0px 0px 0px 10px;
+	flex-wrap: wrap;
+	font-size: 10px;
+	min-width: 150px;
+	min-height: 10px;
+	border: 2px solid black;
+}
+
+/* ----------------------- */
+
+/* .hierarchy-level-form .flex-form-group .flex-field {
+	/* flex: 0 0 0;	 
+	flex-grow: 0;
+	flex-shrink: 0; 
+	/* flex-basis: 0; 
+} */
+
+/* .form-wrap{
+	flex-direction: column;
+	max-width: 400px;
+} */
+
+/* .card {
+	max-width: 400px;
+	width: 200px; /* 85%; 
+	margin: 5px; /* auto; 
+	justify-content: flex-end;
+}
+
+.form-control {
+	max-width: 30em;
+} */
+
+/* ============================== */
+
+/* $label-width: 3em;
+$label-width-xs: 5px;
+$label-width-sm: 8em;
+$label-width-lg: 16em;
+$label-width-xl: 20em;
+$field-width: 20em;
+$btn-font-weight: 0.5rem; */
+
+/* .flex-form-group {
+	flex-wrap: wrap;
+	margin: 0px -.25em;
+} */
+  
+/* .flex-label, .flex-field {
+		padding: 0px .25em;
+	} */
+	
+/* .flex-label {
+		padding-top: .375em;
+		margin-bottom: .25em;
+		flex-grow: 1;
+		flex-shrink: 0; 
+		min-width: 3em;
+	} */
+
+/* .flex-field {
+		flex-grow: 99999;
+		flex-shrink: 0; 
+    margin-bottom: .25em;
+    max-width: 200px; /* 100%; 
+} */
+
+/* .flex-form-group.xs .flex-label,
+.flex-label.xs {
+	/* flex-basis: 5px; 
+	min-width: 5px;
+} */
+
+/* .flex-form-group.sm .flex-label,
+.flex-label.sm {
+	/* flex-basis: 8em; 
+	min-width: 8em;
+} */
+
+/* .flex-form-group.lg .flex-label,
+.flex-label.lg {
+	/* flex-basis: 16em; 
+	min-width: 16em;
+} */
+
+/* .flex-form-group.xl .flex-label,
+.flex-label.xl {
+	/* flex-basis: 20em; 
+	min-width: 20em;
+} */
+
+/* .btn {
+  /* display: inline-block; 
+  /* font-weight: 1rem; 
+  text-align: center;
+  /* white-space: nowrap; 
+  /* vertical-align: middle; 
+  /* user-select: none; 
+  border: 0px solid transparent;
+	font-size: 1em; /* 1rem; 
+}
+
+.btn-xs {
+	font-size: 0.5em; /* 0.5rem; 
+} */
